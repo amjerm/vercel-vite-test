@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "prebuild": "jest",
+    "test": "jest",
+    "prebuild": "npm i && npm test",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
@@ -20,4 +21,3 @@
     "vite": "^2.9.5"
   }
 }
-
